@@ -44,9 +44,9 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@balatann](https://t.me/balatann)
  
- I am Super noob Please Support My Hard Work.
+ I am Super noob Please subscribe to my channel and Support My Hard Work.
 
-[]() or ```MrAbhi2k3@apl```
+[@balatann] or ```MrAbhi2k3@apl```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
@@ -55,7 +55,7 @@ How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
 
-⚠️  Join our channel for 100% secure and working modded apps 👉 https://t.me/balatann
+⚠️  Join our channel for 100% secure and working modded apps 👇 https://t.me/balatann
 
 ❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
 """
