@@ -35,9 +35,9 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔸 **Developer:** [Balatann](https://t.me/balatann) 
 │
-├🔹 **Bot Support:** [Support](https://t.me/balatann)
+├🔹 **Bot Support:** [Modded Apps](https://t.me/balatann)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/balatann)
+├🔸 **Bot Updates:** [Modded Games](https://t.me/balatann)
 │
 ╰──────[ 😎 ]───────────⍟
 """
@@ -46,7 +46,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or ```MrAbhi2k3@apl```
+[]() or ```MrAbhi2k3@apl```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
