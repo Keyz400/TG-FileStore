@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/PayForBotz")
+                        InlineKeyboardButton("Balatan Official", url="https://t.me/balatann")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup")
+                        InlineKeyboardButton("Modded Apps", url="https://t.me/balatann"),
+                        InlineKeyboardButton("Modded Games", url="https://t.me/balatann")
                     ]
                 ]
             )
