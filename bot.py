@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Developer](https://t.me/balatann).",
+                    text="Something went Wrong. Contact my [Developer](https://t.me/+ugIDI9KAK8o4NDBl).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Modded Apps", url="https://t.me/balatann"),
-                        InlineKeyboardButton("Modded Games", url="https://t.me/balatann")
+                        InlineKeyboardButton("Backup Channel", url="https://t.me/hackedworld69"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
