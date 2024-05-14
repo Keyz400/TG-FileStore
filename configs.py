@@ -33,11 +33,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Balatann](https://t.me/balatann) 
+├🔸 **Developer:** [Boss](https://t.me/Gopinoob) 
 │
-├🔹 **Bot Support:** [Modded Apps](https://t.me/balatann)
+├🔹 **Support Group:** [Hacker World Group](https://t.me/hackerworld69chatts)
 │
-├🔸 **Bot Updates:** [Modded Games](https://t.me/balatann)
+├🔸 **Update Channel:** [Hackedworld69](https://t.me/+ugIDI9KAK8o4NDBl)
 │
 ╰──────[ 😎 ]───────────⍟
 """
@@ -54,8 +54,6 @@ Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-
-⚠️  Join our channel for 100% secure and working modded apps 👇 https://t.me/balatann
 
 ❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
 """
