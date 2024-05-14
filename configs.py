@@ -42,11 +42,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@balatann](https://t.me/balatann)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Boss](https://t.me/Gopinoob)
  
  I am Super noob Please subscribe to my channel and Support My Hard Work.
 
-[@balatann] or ```MrAbhi2k3@apl```
+[@hackedworld69] or ```MrAbhi2k3@apl```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
