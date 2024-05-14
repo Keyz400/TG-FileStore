@@ -318,8 +318,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/PredatorHackerzZ/TG-FileStore")
+                        InlineKeyboardButton("Main Channel",
+                                             url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -336,8 +336,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/PredatorHackerzZ/TG-FileStore")
+                        InlineKeyboardButton("Main Channel",
+                                             url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
