@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Balatan Official", url="https://t.me/balatann")
+                        InlineKeyboardButton("Hackedworld69", url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Modded Apps", url="https://t.me/balatann"),
-                        InlineKeyboardButton("Modded Games", url="https://t.me/balatann")
+                        InlineKeyboardButton("Backup Channel", url="https://t.me/hackedworld69"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ]
                 ]
             )
