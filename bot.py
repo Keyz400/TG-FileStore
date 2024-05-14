@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Modded Apps", url="https://t.me/balatann"),
-                        InlineKeyboardButton("Modded Games", url="https://t.me/balatann")
+                        InlineKeyboardButton("Backup Channel", url="https://t.me/hackedworld69"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/+ugIDI9KAK8o4NDBl")
                     ]
                 ]
             )
