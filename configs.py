@@ -33,7 +33,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Boss](https://t.me/Gopinoob) 
+├🔸 **Developer:** [You 😁](tg://settings) 
 │
 ├🔹 **Support Group:** [Hacker World Group](https://t.me/hackerworld69chatts)
 │
@@ -42,7 +42,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Boss](https://t.me/Gopinoob)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [You 😁](tg://settings)
  
  I am Super noob Please subscribe to my channel and Support My Hard Work.
 
