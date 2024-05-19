@@ -109,11 +109,11 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         short_link = get_short(share_link)
         await editable.edit(
             "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: {short_link} \n\n"
-            "Just Click the link to get your file!",
+            f"😊 Here is the Permanent Link of your file: {short_link} \n\n"
+            "⚡ Just Click the link to get your file!",
             reply_markup=InlineKeyboardMarkup(
-               [[InlineKeyboardButton("Original Link", url=share_link),
-                  InlineKeyboardButton("Short Link", url=short_link)]]
+               [[InlineKeyboardButton("😌 Original Link", url=share_link),
+                  InlineKeyboardButton("💳 Short Link", url=short_link)]]
             ),
             disable_web_page_preview=True
         )
