@@ -63,7 +63,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             text=message_ids_str,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
+                InlineKeyboardButton("🗑 Delete Batch", callback_data="closeMessage")
             ]])
         )
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(str(SaveMessage.id))}"
@@ -128,7 +128,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Ban User", callback_data=f"ban_user_{str(editable.chat.id)}")]
+                        [InlineKeyboardButton("🚯 Ban User", callback_data=f"ban_user_{str(editable.chat.id)}")]
                     ]
                 )
             )
