@@ -74,12 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Hackedworld69", url="https://t.me/+ugIDI9KAK8o4NDBl")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close ðŸšª", callback_data="closeMessage")
+                        InlineKeyboardButton("Batman", url="https://t.me/+H-fvLe4fR4oyNzhl")
                     ],
                     [
                         InlineKeyboardButton("Backup Channel", url="https://t.me/hackedworld69"),
