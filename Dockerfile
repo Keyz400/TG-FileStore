@@ -17,14 +17,16 @@ RUN apt-get update && \
     python3-pip \
     python3-lxml \
     pv && \
-    apt-get autoclean && \
-    apt-get autoremove && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 # Set up locales
 RUN locale-gen en_US.UTF-8 && \
     dpkg-reconfigure --frontend=noninteractive locales && \
     update-locale LANG=en_US.UTF-8
+
+# Upgrade pip to the latest version
+RUN pip3 install --upgrade pip
 
 # Install Python dependencies
 RUN pip3 install setuptools wheel yarl multidict
