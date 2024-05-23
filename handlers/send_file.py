@@ -15,8 +15,7 @@ async def reply_forward(message: Message, file_id: int):
         await message.reply_text(
             f"Files will be deleted in 30 minutes to avoid copyright issues.",
             disable_web_page_preview=True,
-protect_content=True,
-quote=True
+            quote=True
         )
     except FloodWait as e:
         await asyncio.sleep(e.x)
@@ -25,11 +24,21 @@ quote=True
 async def media_forward(bot: Client, user_id: int, file_id: int):
     try:
         if Config.FORWARD_AS_COPY is True:
-            return await bot.copy_message(chat_id=user_id, from_chat_id=Config.DB_CHANNEL,
-                                          message_id=file_id)
+            return await bot.copy_message(
+                chat_id=user_id, 
+                from_chat_id=Config.DB_CHANNEL,
+                message_id=file_id,
+                protect_content=True
+            )
+
         elif Config.FORWARD_AS_COPY is False:
-            return await bot.forward_messages(chat_id=user_id, from_chat_id=Config.DB_CHANNEL,
-                                              message_ids=file_id)
+            return await bot.forward_messages(
+                chat_id=user_id, 
+                from_chat_id=Config.DB_CHANNEL,
+                message_ids=file_id,
+                protect_content=True
+                
+                )
     except FloodWait as e:
         await asyncio.sleep(e.value)
         return media_forward(bot, user_id, file_id)
