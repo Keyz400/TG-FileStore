@@ -28,7 +28,7 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
                 chat_id=user_id, 
                 from_chat_id=Config.DB_CHANNEL,
                 message_id=file_id,
-                protect_content=True
+                protect_content = not Config.OTHER_USERS_CAN_SAVE_FILE
             )
 
         elif Config.FORWARD_AS_COPY is False:
@@ -36,7 +36,7 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
                 chat_id=user_id, 
                 from_chat_id=Config.DB_CHANNEL,
                 message_ids=file_id,
-                protect_content=True
+                protect_content = not Config.OTHER_USERS_CAN_SAVE_FILE
                 
                 )
     except FloodWait as e:
